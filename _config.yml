@@ -1,4 +1,4 @@
-logo_title: GEEK 三斤
+logo_title: Q7
 
 style: black
 
@@ -6,17 +6,29 @@ favicon: /favicon.ico
 
 menu:
   作品: /project
-  域名: /domain
   友联: /links
   关于: /about
-  Github: https://github.com/sanjinhub
+  Github: https://github.com/q71998
 
 # 做了域名限制，请改成自己的 KEY
 # 若关闭valine 设置enable为false
 valine:
-  enable: true
+  enable: false
   appId: CmCti21ooOOIzFOhEyFkFvR0-gzGzoHsz
   appKey: FqiyUqbg7McKN2eG0MCewupf
 
 highlight:
   enable: false
+
+# Math
+math:
+  enable: true
+  engine: 'katex' # 'katex' or 'mathjax'
+  all_pages: true
+  mathjax:
+    src: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  katex:
+    src:
+      css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
+      js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js
+      autorender: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js
